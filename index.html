@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soumalya | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #ffffff;
+            color: #333;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            color: #e74c3c;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4rem;
+            font-weight: bold;
+            color: #e74c3c;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        section {
+            padding: 80px 20px 60px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #e74c3c;
+            margin-bottom: 20px;
+            font-size: 2rem;
+        }
+
+        p,
+        ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #e74c3c;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 10px;
+            }
+        }
+
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .contact-column {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .contact-column p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-divider {
+            width: 1px;
+            background-color: #999;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>PORTFOLIO</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <span style="color: black;">Hi! I am</span> <span style="color: #e74c3c;"> &nbsp;SOUMALYA</span>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm an aspiring software developer who loves building things with code. I enjoy learning new technologies
+            and working on real-world projects. This is my portfolio website where I showcase my skills and projects.
+        </p>
+        <p>I have experience in <strong>Frontend Development</strong>, <strong>Graphic Design</strong>, and
+            <strong>Digital Marketing</strong>. Currently, I am also learning <strong>Data Structures & Algorithms
+                (DSA)</strong> and <strong>Backend Development</strong> to enhance my skills further.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Coming Soon...</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <div class="contact-column">
+                <p>📞 - <a href="https://api.whatsapp.com/send/?phone=9156441502&text&type=phone_number&app_absent=0" target="_blank" style="text-decoration: none;color: black;">&nbsp;+91 9156441502</a></p>
+                <p>✉️ - <a href="mailto:soumalya.op@gmail.com" target="_blank" style="text-decoration: none;color: black;">&nbsp;soumalya.op@gmail.com</a></p>
+
+            </div>
+            <div class="contact-divider"></div>
+            <div class="contact-column">
+                <p>📷 - <a href="https://www.instagram.com/soum_990?igsh=MTlwODZvMmVoNGgxOQ==" target="_blank" style="text-decoration: none;color: black;">&nbsp;@soum_990</a></p>
+                <p>🔗 - <a href="https://www.linkedin.com/in/soumalya-hazra" target="_blank" style="text-decoration: none;color: black;">&nbsp;soumalya-hazra</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Soumalya Portfolio | All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
